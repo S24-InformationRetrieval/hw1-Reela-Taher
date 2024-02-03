@@ -38,7 +38,7 @@ ap89_index = {
   }
 }
 
-es.indices.create(index=index_name, body=ap89_index)
+# es.indices.create(index=index_name, body=ap89_index)
 
 # Parse documents
 docs = parse_docs() 
